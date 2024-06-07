@@ -1,1 +1,21 @@
-# Livros-e-passion-2
+# Trabalho
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<meta name="keywords" content="Gerador de senhas">
+<link rel="stylesheet" href="style.css">
+<title>Gerador de senha</title>
+</head>
+<body>
+<img class="logo" src="Academy-2FA.png" alt="Gerador senha logo"/>
+<div class="container-input">
+<span>Tamanho <span id="valor"></span> caracteres</span>
+<input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
+<button id="button" class="button-cta"
+onclick="generate Password()">Gerar senha</button>
+</body>
+</html>
