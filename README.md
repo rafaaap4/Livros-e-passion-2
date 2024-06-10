@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="keywords" content="Gerador de senhas"> <link rel="stylesheet" href="style.css"> Gerador de senha </head> <body>
 <img class="logo" src=". assets/logo.png" alt="Gerador senha logo"/>
 <div class="container-input">
-<span> Tamanho <span id="valor"></span> caracteres</span>
+<span>  <span id="valor"></span>
 <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
 <button id="button" class="button-cta" onclick="generatePassword ()">Gerar senha</button>
 </div>
